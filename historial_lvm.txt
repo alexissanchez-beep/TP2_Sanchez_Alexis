@@ -1,0 +1,533 @@
+    1  pwd
+    2  ls -l
+    3  mkdir clase5
+    4  ls- l
+    5  ls -l
+    6  cd clase5
+    7  pwd
+    8  ls -l
+    9  mkdir facturas pedidos
+   10  ls -l
+   11  tree
+   12  mkdir -p clientes/{facturas,pedidos}
+   13  tree
+   14  sudo apt update
+   15  sudo apt install tree
+   16  tree
+   17  mkdir -p {clientes,provedores}/{facturas,pedidos}
+   18  tree
+   19  mkdir -p contactos/{clientes,provedores}/{facturas,pedidos}
+   20  tree
+   21  mkdir -p sanchez_1/contactos/{clientes,provedores}/{facturas,pedidos}
+   22  tree
+   23  mkdir clase4
+   24  ls -l
+   25  tree
+   26  mkdir -p Sanchez_2/{mama/hijo{1..3},papa/{ahijado,hijo{1..3}}}
+   27  rm -r clase4
+   28  tree
+   29  pwd
+   30  mkdir qp/rueba
+   31  mkdir ~/prueba
+   32  tree
+   33  ls -l
+   34  cde ..
+   35  ls -l
+   36  cd ..
+   37  ls -l
+   38  mkdir clase4
+   39  ls -l
+   40  cd clase5
+   41  mkdir /home/vagrant/prueba2
+   42  ls -l /home/vagrant/
+   43  whoami
+   44  id
+   45  cat /etc/passwd
+   46  grep -i vagrant 
+   47  cd clase5
+   48  ls -l
+   49  cat /etc/passwd
+   50  grep vagrant /etc/passwd
+   51  sudo su
+   52  sudo groupadd alumnos
+   53  cat /etc/grou
+   54  cat /etc/groupadd
+   55  cat /etc/group
+   56  useradd -m -s /bin/bash -c "alumno de prueba" -G alumnos pepe
+   57  sudo useradd -m -s /bin/bash -c "alumno de prueba" -G alumnos pepe 
+   58  grep pepe /etc/passwd
+   59  sudo grep pepe /etc/group
+   60  ls -l /home
+   61  sudo passwd pepe
+   62  su pepe 
+   63  su - pepe
+   64  ls -l /home/pepe
+   65  ls -l
+   66  sudo chown pepe:pepe clientes
+   67  ls -l
+   68  sudo chown vagrant:vagrant clientes
+   69  ls-l
+   70  ls -l
+   71  ls -l /home/pepe
+   72  su - pepe
+   73  sudo chown vagrant:vagrant /home/pepe/pepe.txt
+   74  sudo ls -l /home/pepe
+   75  touch practica2.txt
+   76  ls -l
+   77  chmod 600 practica1.txt
+   78  ls -l
+   79  rm -r Sanchez_2
+   80  ls -l
+   81  chmod 444 practica2.txt
+   82  ls -l
+   83  chmod 644 practica2.txt
+   84  ls -l
+   85  exho "hola" >> practica2.txt
+   86  echo "hola" >> practica2.txt
+   87  cat practica2.txt 
+   88  cd ..
+   89  chmod -R 777 clase5/
+   90  ls -l}
+   91  ls -l
+   92  cd clase5
+   93  ls -l
+   94  cd ..
+   95  ls -l
+   96  chmod -R 666 clase5/
+   97  sudo chmod -R 666 clase5/
+   98  ls -l
+   99  cd clase5
+  100  sudo chmod 777 clase5
+  101  sudo -R chmod 777 clase5/
+  102  ls -l
+  103  chmod 666 practica1.txt
+  104  ls -l
+  105  chmod 666 *.txt
+  106  cat $HOME/.ssh/*.pub
+  107  exit
+  108  ssh -i
+  109  ssh-keygen -t ed25519
+  110  cat $HOME/.ssh/*.pub
+  111  cd
+  112  Cd makdir repogit
+  113  cd
+  114  cd mkdir repogit
+  115  cd
+  116  rkdir repogit
+  117  mkdir repogit
+  118  $HOME/repogit/
+  119  cd repogit
+  120  git clone <URL>
+  121  git clone <git@github.com:alexissanchez-beep/TP1_AySO_Sanchez_Alexis.git>
+  122  git clone git@github.com:alexissanchez-beep/TP1_AySO_Sanchez_Alexis.git
+  123  cd TP1_AySO_Sanchez_Alexis/
+  124  pwd
+  125  ls -l
+  126  cat /etc/os-release
+  127  man grep
+  128  grep HOME_URL /etc/os-release
+  129  grep home_url /etc/os-release
+  130  man grep
+  131  grep --ignore-case Home_url /etc/os-release
+  132  grep -i Home_url /etc/os-release
+  133  grep -i Home_url /etc/os-release >
+  134  datos_url.txt 
+  135  grep -i Home_url /etc/os-release
+  136  datos_url.txt 
+  137  grep -i HOME_URL /etc/os-release datos_url.txt
+  138  grep -i home_url /etc/os-release datos_url.txt
+  139  grep HOME_URL /etc/os-release
+  140  grep home_url /etc/os-release
+  141  grep -i Home_url /etc/os-release
+  142  grep -i home_url /etc/os-release
+  143  grep -i HOME_URL /etc/os-release
+  144  grep -i Home_url /etc/os-release >
+  145  datos_url.txt
+  146  grep -i Home_url /etc/os-release 
+  147  datos_url.txt
+  148  exit
+  149  ssh-keygen -t ed25519
+  150  cat $HOME/.ssh/*.pub
+  151  cd
+  152  cd repogit
+  153  [200~$HOME/repogit/~
+  154  $HOME/repogit/
+  155  git clone git@github.com:alexissanchez-beep/TP1_AySO_Sanchez_Alexis.git
+  156  cd TP1_AySO_Sanchez_Alexis/
+  157  pwd
+  158  ls -l
+  159  cat /etc/os-release
+  160  man grep
+  161  grep HOME_URL /etc/os-release
+  162  grep home_url /etc/os-release 
+  163  -i
+  164  grep -i home_url /etc/os-release
+  165  grep -i HOME_URL /etc/os-release
+  166  grep -i Mome_url /etc/os-release
+  167  grep -i Home_url /etc/os-release
+  168  grep -i Home_url /etc/os-release >
+  169  datos_url.txt
+  170  grep -i Home_url /etc/os-release datos_url.txt
+  171  whoami
+  172  echo “Usuario=$(whoami)” > datos_usuario.txt>
+  173  echo “Usuario=$(whoami)” > datos_usuario.txt
+  174  git add
+  175  ls
+  176  git add . 
+  177  git config --global user.email "alexissanchez20176678@gmail.com"
+  178  git config --global user.name "alexis"
+  179  git commit -m "ADD: agregado 1er
+  180  ejercicio sobre datos_usuario.txt"
+  181  git status
+  182  git push
+  183  grep "model name" /proc/cpuinfo | head -n1 >>
+  184  datos_usuario.txt
+  185  grep "tp1_yo" /proc/cpuinfo | head -n1 >
+  186  datos_usuario.txt
+  187  grep "tp1YO" /proc/cpuinfo | head -n1 >>
+  188  datos_usuario.txt
+  189  grep "model name" /proc/cpuinfo | head -n1 >> 
+  190  datos_usuario.txt
+  191  grep "alexis sanchez" /proc/cpuinfo | head -n1 >>
+  192  datos_usuario.txt
+  193  grep "alexis sanchez" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+  194  grep "tp1 yo" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+  195  feat: Añadiendo información de CPU
+  196  grep "AMD Ryzen3 3200g" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+  197  cat /proc/cpuinfo
+  198  grep "AMD Ryzen 3 3200G with Radeon Vega Graphics" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+  199  feat: Añadiendo información de CPU
+  200  cat <<EOF >> README.md 
+  201  Alumno: Alexis Sanchez
+  202  Division: 212
+  203  Turno: Tarde
+  204  EOF
+  205  git add README.md datos_usuarios.txt
+  206  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  207  git push
+  208  ls -l
+  209  git add
+  210  git add README.md datos_usuarios.txt
+  211  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  212  git add README.md datos_usuario.txt
+  213  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  214  git push
+  215  mkdir -p materia1/uni{1..3} materia2/uni{1..3}
+  216  ls -R materia1 materia2
+  217  tree materia1 materia2
+  218  echo "mkdir -p materia1/uni{1..3} materia2/uni{1..3}" > script_dir.sh
+  219  chmod +x script_dir.sh
+  220  git add .
+  221  git commit -m "ADD: Añadiendo script"
+  222  git push
+  223  history -a
+  224  cp ~/.bash_history ./Historial_comandos_TuApellido.txt
+  225  git add .
+  226  git commit -m "ADD: Historial de comandos de TuApellido"
+  227  git push
+  228  exit
+  229  cd
+  230  pwd
+  231  ls -l
+  232  cd readme
+  233  cd prueba 
+  234  ls -l
+  235  cd
+  236  cd carpeta_compartida/
+  237  ls -l
+  238  cd
+  239  cd carpeta_compartida/
+  240  ls -l
+  241  cd
+  242  cd prueba 2
+  243  cd repogit
+  244  ls -l
+  245  cd TP1_AySO_Sanchez_Alexis/
+  246  cd repogit/
+  247  cd TP1_AySO_Sanchez_Alexis/
+  248  ls -
+  249  ls -l
+  250  vim script_dir.sh 
+  251  ./script_dir.sh 
+  252  tree
+  253  cd
+  254  tree
+  255  cd repogit/
+  256  cd TP1_AySO_Sanchez_Alexis/
+  257  cd ~/mkdir -p materia1/uni{1..3},materia2/uni{1..3
+  258  ~/mkdir -p materia1/uni{1..3},materia2/uni{1..3}
+  259  cd ~/ mkdir -p materia1/uni{1..3},materia2/uni{1..3}
+  260  cd ~/$HOME mkdir -p materia1/uni{1..3},materia2/uni{1..3}
+  261  ~/$HOME mkdir -p materia1/uni{1..3},materia2/uni{1..3}
+  262  cd
+  263  tree
+  264  cd repogit/
+  265  cd TP1_AySO_Sanchez_Alexis/
+  266  mkdir -p ~/material1/{uni1,uni2,uni3} ~/materia2/{uni1,uni2,uni3}
+  267  cd
+  268  tree
+  269  cd r 
+  270  cd repogit/
+  271  cd TP1_AySO_Sanchez_Alexis/
+  272  cd r
+  273  cd
+  274  cd r
+  275  cd repogit/
+  276  cd TP1_AySO_Sanchez_Alexis/
+  277  ls l-
+  278  ls -l
+  279  vim script_dir.sh 
+  280  ./script_dir.sh 
+  281  tree
+  282  cd
+  283  pwd
+  284  whoami
+  285  tree
+  286  cd repogit/
+  287  cd TP1_AySO_Sanchez_Alexis/
+  288  ls -l
+  289  cat Historial_comandos_TuApellido.txt 
+  290  tree
+  291  ls -l
+  292  cat README.md 
+  293  cat datos_usuario.txt 
+  294  cd
+  295  exit
+  296  whoami
+  297  cd repogit/
+  298  cd TP1_AySO_Sanchez_Alexis/
+  299  ls -l
+  300  git status
+  301  cat datos_usuario.txt 
+  302  tree
+  303  rm case
+  304  ls -l
+  305  cat script_dir.sh 
+  306  cd
+  307  ls -l
+  308  exit
+  309  sudo apt update
+  310  sudo apt install ansible -y
+  311  sudo apt list --instaled
+  312  sudo apt list --installed | grep ansible
+  313  sudo apt list --installed | grep git
+  314  ls -l
+  315  ls -la
+  316  cd .ssh
+  317  pwd
+  318  ls -l
+  319  cat authorized_keys 
+  320  cat id_ed25519.pub >> authorized_keys
+  321  cat authorized_keys 
+  322  ip -a
+  323  ip -address
+  324  ip -ddress
+  325  ip address
+  326  hostname -i
+  327  curl ifconfig.me
+  328  cd ..
+  329  vagrant@192.168.56.2 
+  330  w
+  331  exit
+  332  ssh vagrant@192.168.56.2 
+  333  w
+  334  exit
+  335  ssh vagrant@192.168.56.2 
+  336  cd repogit/
+  337  git clone https://github.com/upszot/UTN-FRA_SO_Ansible.git
+  338  ls -l
+  339  cd UTN-FRA_SO_
+  340  cd UTN-FRA_SO_Ansible/
+  341  ls -l
+  342  cd ejemplo_01
+  343  ls -l
+  344  cat README.md 
+  345  ansible-playbook -l
+  346  ls -l
+  347  cat inventory 
+  348  cat playbook.yml 
+  349  ansible-playbook -i inventory playbook.yml
+  350  cd ..
+  351  ls -l
+  352  cd ejemplo_02
+  353  ls -l
+  354  cat README.md 
+  355  cd files/
+  356  ls -l
+  357  cat index.html 
+  358  cd ..
+  359  cat inventory 
+  360  cat playbook.yml 
+  361  ls -l /var
+  362  ansible-playbook -i inventory playbook.yml
+  363  sudo apt list --installed | grep apache 
+  364  ls -l /var
+  365  cat /var/www/html/index.html 
+  366  vim /var/www/html/index.html 
+  367  sudo vim /var/www/html/index.html 
+  368  ls -l
+  369  cat README.md 
+  370  cd ..
+  371  cd ejemplo_03
+  372  cat README.md 
+  373  ansible-galaxy role init rol_ejemplo2
+  374  cd role_ejemplo1/
+  375  ls -l
+  376  cd tasks/
+  377  ls -l
+  378  cat main.yml 
+  379  cd ..
+  380  cd rol_ejemplo2/tasks/
+  381  cd rol_ejemplo2/tasks
+  382  cd ejemplo_03
+  383  cd ..
+  384  cd ejemplo_03
+  385  cd rol_ejemplo2
+  386  cd tasks/
+  387  exit
+  388  # Add Docker's official GPG key:
+  389  sudo apt update
+  390  sudo apt install ca-certificates curl
+  391  sudo install -m 0755 -d /etc/apt/keyrings
+  392  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+  393  sudo chmod a+r /etc/apt/keyrings/docker.asc
+  394  # Add the repository to Apt sources:
+  395  sudo tee /etc/apt/sources.list.d/docker.sources <<EOF
+  396  Types: deb
+  397  URIs: https://download.docker.com/linux/ubuntu
+  398  Suites: $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}")
+  399  Components: stable
+  400  Architectures: $(dpkg --print-architecture)
+  401  Signed-By: /etc/apt/keyrings/docker.asc
+  402  EOF
+  403  sudo apt update
+  404  sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  405  sudo systemctl status docker 
+  406  sudo docker run hello-world
+  407  sudo usermod -a -G docker vagrant 
+  408  grep docker /etc/group
+  409  id
+  410  exit
+  411  su vagrant
+  412  id
+  413  exit
+  414  id
+  415  ls -l
+  416  cd repogit/
+  417  ls -l
+  418  git clon https://github.com/upszot/UTN-FRA_SO_Docker.git
+  419  git clone https://github.com/upszot/UTN-FRA_SO_Docker.git
+  420  ls -l
+  421  cd UTN-FRA_SO_Docker/
+  422  ls -l
+  423  cd ejemplo0
+  424  ls -l
+  425  cat 01_run.sh 
+  426  docker run -d -p 80:80 kennethreitz/httpbin
+  427  sudo netstap -putona |g
+  428  sudo netstap -putona |grep ":80"
+  429  sudo apt install net-to
+  430  ols
+  431  sudo netstap -putona |g
+  432  rep ":80"
+  433  sudo netstat -putona | grep “:80”
+  434  sudo apt install net-tools
+  435  sudo netstat -putona | grep “:80”
+  436  sudo netstat -putona 
+  437  sudo netstat -putona |grep “:80”
+  438  sudo netstat -putona | grep “80”
+  439  docker run -d -p 81:80 
+  440  docker ps
+  441  ls -l
+  442  cat 01_run.sh 
+  443  docker run -d -p 80:80 kennethreitz/httpbin
+  444  docker run -d -p 81:80 kennethreitz/httpbin
+  445  docker ps
+  446  dicker stop 0[200~
+  447  dicker stop 259
+  448  docker images
+  449  docker pull mysql:oraclelinux9
+  450  dicker images
+  451  docker images
+  452  exit
+  453  sudo pvs
+  454  sudo fdisk -l
+  455  free -h
+  456  swapon -s
+  457  free -h
+  458  exit
+  459  ls -l
+  460  cd prueba
+  461  ls -l
+  462  cd ..
+  463  cd prueba2
+  464  ls -l
+  465  cd ..
+  466  cd re
+  467  cd repogit/
+  468  ls -l
+  469  cd ..
+  470  #config.vm.box
+  471  #config.vm.box = "generic/rhe18
+  472  #config.vm.box = "generic/rhe19
+  473  ls -l
+  474  config.vm.synced_folder ".", "/home/vagrant/foo"
+  475  config.vm.synced_folder '.', '/home/vagrant/foo'
+  476  config.vm.synced_folder '.','/home/vagrant/foo'
+  477  config.vm.synced_folder '.', '/home/vagrant/foo'
+  478  exit
+  479  sudo fdisk /dev/sdd
+  480  fdisk
+  481  sudo fdisk /dev/sdd
+  482  ls -l
+  483  sudo fdisk /dev/sdd
+  484  lsblk
+  485  exit
+  486  sudo fdisk /dev/sdd
+  487  sudo fdisk
+  488  fdisk
+  489  exit
+  490  lsblk
+  491  sudo fdisk /dev/sdd
+  492  free
+  493  free -h
+  494  sudo mkswap /dev/sdd1
+  495  sudo swapon /dev/sdd1
+  496  free -h
+  497  swapon -s
+  498  cat /proc/swaps
+  499  ```[cite: 15, 16]
+  500  ---
+  501  -
+  502  -
+  503  -
+  504  -
+  505  exit
+  506  w
+  507  free -h
+  508  cat /proc/swaps
+  509  sudo fdisk /dev/sdc
+  510  sudo wipefs -a /dev/sdc1
+  511  sudo pvcreate /dev/sdd2 /dev/sdd3 /dev/sdd5 /dev/sdd6 /dev/sdc1 /dev/sdc2
+  512  sudo pvs
+  513  sudo vgcreate vg_datos /dev/sdc1 /dev/sdd2
+  514  sudo vgs
+  515  sudo pvs
+  516  sudo vgcreate vg_web /dev/sdc2
+  517  sudo pvs
+  518  sudo lvcreate -L 1G vg_web -n lv_web1
+  519  sudo lvcreate -L 512M vg_web -n lv_web2
+  520  sudo lvcreate -L 512M vg_web -n lv_web3
+  521  sudo lvs
+  522  sudo pvs
+  523  sudo fdisk -l
+  524  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web1
+  525  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web2
+  526  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web3
+  527  lsblk -f
+  528  git clone https://github.com/alexissanchez-beep/TP2_Sanchez_Alexis.git
+  529  cd TP2_Sanchez_Alexis/
+  530  sudo pvs > pvs.txt
+  531  sudo vgs > vgs.txt
+  532  sudo lvs > lvs.txt
+  533  history > historial_lvm.txt
